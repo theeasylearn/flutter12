@@ -1,0 +1,6 @@
+1) write a program to findout area of triangle, take input from user 
+2) write a program to findout area of circle. take input form user 
+3) write a program to findout volume of room. take input from user. 
+4) write a program to convert ceilcius into fahrenheit.  take input from user. 
+5) write a program to convert KM into miles. take input from user. 
+6) 
