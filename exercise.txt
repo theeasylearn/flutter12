@@ -3,4 +3,9 @@
 3) write a program to findout volume of room. take input from user. 
 4) write a program to convert ceilcius into fahrenheit.  take input from user. 
 5) write a program to convert KM into miles. take input from user. 
-6) 
+
+list
+-------------
+1) create list of fixed type and fixed size to store only 11 player score and display 
+2) create list of fixed type and fixed size to store only location of 11 gyortilings in india. store latitude in list longitude in another list 
+3) create list of teams that will take part in asia cup 2025 
