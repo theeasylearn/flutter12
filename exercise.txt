@@ -9,3 +9,13 @@ list
 1) create list of fixed type and fixed size to store only 11 player score and display 
 2) create list of fixed type and fixed size to store only location of 11 gyortilings in india. store latitude in list longitude in another list 
 3) create list of teams that will take part in asia cup 2025 
+
+4) create list and use below methods 
+    contains
+    indexOf()
+    removeAt()
+    removeRange()
+    lastIndexOf()
+
+    length property 
+    sort list
