@@ -19,3 +19,9 @@ list
 
     length property 
     sort list
+
+5) write a program to accept length & width from user, decide and display whether shape is potrait or landscape using ternary operator.
+
+6) write a program to accept purchase & sale price of product from user. decide and display profit or loss.
+
+
