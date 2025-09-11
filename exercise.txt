@@ -54,7 +54,23 @@ Less than 18.5	    Underweight
 35 – 39.9	        Obesity (Class II)
 40 or more	        Extreme Obesity (Class III)
 
-8) write a program to accept month number from user and display name of the month 
+Write a program that takes a percentage as input and prints the grade using the following conditions:
+
+| Percentage | Grade |
+| ---------- | ----- |
+| 90–100     | A+    |
+| 80–89      | A     |
+| 70–79      | B     |
+| 60–69      | C     |
+| 50–59      | D     |
+| below 50   | Fail  |
+
+
+switch decsion making
+-----------------------------
+write a program to accept month number from user and display name of the month how many days that month has.
+    input : 1 print It is January and it has 31 days 
+
 
 nested decision making 
 ----------------------------------
@@ -76,5 +92,4 @@ Pisces: February 19–March 20
 
 nested decision making
 ---------------------------------------
-
 1) write a program to findout when cylineder has largest surface area from 3 given cylineder's dimension.

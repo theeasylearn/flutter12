@@ -13,5 +13,31 @@ import 'dart:io';
 */
 void main()
 {
-    
+    int MonthlyIncome,GrossIncome;
+    double tax,NetIncome;
+    print("Enter monthly income");
+    MonthlyIncome = int.parse(stdin.readLineSync().toString());
+    GrossIncome = MonthlyIncome * 12;
+    if(GrossIncome>2400000)
+    {
+        tax = GrossIncome * 0.30; 
+    }
+    else if(GrossIncome>2000000)
+    {
+        tax = GrossIncome * 0.25; 
+    }
+    else if(GrossIncome>1600000)
+    {
+        tax = GrossIncome * 0.20; 
+    }
+    else if(GrossIncome>1200000)
+    {
+        tax = GrossIncome * 0.15; 
+    }
+    else
+    {
+        tax = GrossIncome * 0.05; 
+    }
+    NetIncome = GrossIncome - tax;
+    print(" Gross Income = $GrossIncome \n Tax = $tax \n Net Income = $NetIncome");
 }
