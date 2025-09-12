@@ -54,7 +54,7 @@ Less than 18.5	    Underweight
 35 – 39.9	        Obesity (Class II)
 40 or more	        Extreme Obesity (Class III)
 
-Write a program that takes a percentage as input and prints the grade using the following conditions:
+Write a program that takes a percentage as integer as input and prints the grade using the following conditions:
 
 | Percentage | Grade |
 | ---------- | ----- |
@@ -92,4 +92,6 @@ Pisces: February 19–March 20
 
 nested decision making
 ---------------------------------------
-1) write a program to findout when cylineder has largest surface area from 3 given cylineder's dimension.
+1) write a program to findout when cylinder has smallest surface area from 3 given cylinder's dimension.
+
+2) write a program to findout whehther given year is leap year or not.
