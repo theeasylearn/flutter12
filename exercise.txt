@@ -95,3 +95,113 @@ nested decision making
 1) write a program to findout when cylinder has smallest surface area from 3 given cylinder's dimension.
 
 2) write a program to findout whehther given year is leap year or not.
+
+loop 
+-------------------------------
+1) 2 4 6 8 10 12 14 .... 100
+2) 1 2 4 8 16 32 64 128 256 ...
+3) 1 3 6 10 15 21 28 36 ...
+4) 1 4 9 16 25 36 49 64 ...
+5) 0 0 1 2 3 5 8 13 21 .... 1000
+
+
+5) write a program to find & display factorial of given number. 
+6) write a program to find & display whether given number is prime number or not 
+7) write a program to find & display whether given number is perfect number or not 
+8) write a program to findout whether given number is composite number or not 
+9) write a program to findout whether given number is Palindromic Numbers
+for in loop 
+-------------------------------
+1) write a program to findout whether how many names in list start with vowels.
+    family = ['Ankit','Diya','Jiya','Kashish','Mahendra']
+2) write a program to findout count of positive and negative value in numeric list.
+
+do while loop 
+-----------------------------------
+1) 27   125 ........  1000 
+2) 1, 2, 4, 8, 16, 32, 64, 128, 256, ... (Geometric sequence, doubling each term)
+3) 1 -3 5 -7 9 -11 13
+4) 1 5 4 10 7 15
+5) 1 3 7 13 22
+6) 1 8 9 64 25 216
+
+
+for loop 
+--------------------------------------------------------------
+1) write a program to program findout exponent of given value 
+2) write a program to findout minimum and maximum from numeric list 
+
+Nested Loop 
+1) 1, 2, 6, 24, 120
+2) 2, 3, 5, 7, 9, 11, 100
+3) write a program to print 1st 10 perfect numbers. 
+
+for In loop 
+1) write a program to count odd & event number in mixed type list 
+2) write a program to count words which start with vowels(a,e,i,o,u)
+    ['apple','mango','elephant','orange','india','ball','hourse',10,true,null]
+
+functions
+1) write a program to create function that return simple interest of given amount, rate, year 
+2) write a program to create function that convert given dollar into rupees 
+3) write a program that return current time. 
+---------------------------------------------------------------------------------------------
+arrow function
+1) write a program to convert ceilcius into farenheit 
+2) write a program to convert grams into kilograms 
+3) write a program to findout and return largest number from two number 
+4) write a program to findout and return smallest number from three number 
+
+OOP 
+--------------------------------
+1) create class Product. it should have below instance variable 
+name, price, quantity, weight, description 
+
+create constuctor for initilization
+create method to display 
+
+2) create class Match . it should have below instance variable 
+team1, team2, venue, datetime, result, team1_run,team2_run,
+
+create constuctor for initilization
+create method to display all property, and also declare who is winner
+
+
+3) class class Currency it has one argument constuctor rupees which will initilize instance variable rupees. and it has setter rupees which will rupees also ensure rupees is not negative and it has below getter 
+    dollar which return rupees into dollar 
+    euro which return rupees into euro
+    pound which return rupees into pound 
+
+inheritance
+------------------------------------
+1) create single level inheritance example 
+    create class MyDate which store date using dart library class 
+    it has methods 
+    --------------
+        getDate() returns 02-09-2025
+    create class MyDateFormatter which extends MyDate class 
+        it has methods
+        ------------------------
+            getDayOfWeek() return Tuesday 
+            getFullDate()  return Tuesday 02-sept-2025
+            getFullDateTime()  return 11:12 AM Tuesday 02-sept-2025
+
+create multilevel inheritance example 
+    Kilo  has contructor and function that returns KiloGram 
+    Kiwntle has contructor and function that returns  Kiwntle
+    Ton  has contructor and function that returns Ton 
+
+create multilevel inheritance example
+    Foot has contructor for inch and function that returns Foot
+    Meter has contructor and function that returns Meter 
+    KiloMeter has contructor and function that returns KiloMeter
+    Mile has contructor and function that returns Mile 
+
+
+Create example using 55th example
+    make total of all book 
+    also findout average price of all book 
+    display books below 200 rs price 
+    search book using given name & author name 
+        for example book name The Lean Startup and author is Eric Ries
+    if book found display all detail otherwise display message book not found
