@@ -104,6 +104,21 @@ loop
 4) 1 4 9 16 25 36 49 64 ...
 5) 0 0 1 2 3 5 8 13 21 .... 1000
 
+work upon number 
+----------------------
+write a program to findout whether given number is armstrong number or not 
+//example of armstrong number -> 1 153 (1x1x1 + 5x5x5 + 3x3x3) = 153
+// 153, 370, 371, and 407
+
+write a program to print numbers into words 
+number : 12345 
+output : one two three four five 
+
+write a program to reverse given number 
+    example 12345
+    output 54321
+
+
 
 5) write a program to find & display factorial of given number. 
 6) write a program to find & display whether given number is prime number or not 

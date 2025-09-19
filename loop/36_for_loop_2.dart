@@ -10,14 +10,11 @@ void main()
 
     stdout.write("Enter rate of interest: ");
     double rate = double.parse(stdin.readLineSync()!);
-
     print("\nAmount: $amount");
     print("Years: $year");
     print("Rate: $rate");
-
     double AmountWithInterest=0.0,interest=0.0;
     AmountWithInterest =  double.parse(amount.toString()); //1000
-    
     for(int count=1;count<=year;count++)
     {
         interest = (AmountWithInterest * rate * 1) / 100;
