@@ -152,7 +152,7 @@ Nested Loop
 3) write a program to print 1st 10 perfect numbers. 
 
 for In loop 
-1) write a program to count odd & event number in mixed type list 
+1) write a program to count positive and negative number in numeric list 
 2) write a program to count words which start with vowels(a,e,i,o,u)
     ['apple','mango','elephant','orange','india','ball','hourse',10,true,null]
 
