@@ -157,9 +157,10 @@ for In loop
     ['apple','mango','elephant','orange','india','ball','hourse',10,true,null]
 
 functions
-1) write a program to create function that return simple interest of given amount, rate, year 
+1) write a program to create function that convert ceilcius into farenheit 
 2) write a program to create function that convert given dollar into rupees 
 3) write a program that return current time. 
+3) write a program that return current date. 
 ---------------------------------------------------------------------------------------------
 arrow function
 1) write a program to convert ceilcius into farenheit 
