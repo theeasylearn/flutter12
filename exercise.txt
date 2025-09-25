@@ -221,3 +221,15 @@ Create example using 55th example
     search book using given name & author name 
         for example book name The Lean Startup and author is Eric Ries
     if book found display all detail otherwise display message book not found
+
+Lambda function
+---------------------------------------------
+    1) create lambda function to convert Liter into Milileter 
+    2) create lambda function that return current Date As String in dd-mm-YYYY format 
+    3) create lambda function that return current Time As String in HH:MM:SS format 
+
+annonymus function 
+----------------------------------------------
+    1) create annonymus function on String type list that has 20 words. count words start with vowels (a,e,i,o,u) 
+    2) create annonymus function on integer list that has 20 numbers. cound odd and even numbers in this list 
+    
