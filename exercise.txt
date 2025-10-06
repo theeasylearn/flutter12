@@ -233,3 +233,7 @@ annonymus function
     1) create annonymus function on String type list that has 20 words. count words start with vowels (a,e,i,o,u) 
     2) create annonymus function on integer list that has 20 numbers. cound odd and even numbers in this list 
     
+class & object
+1) create class School, store School name, establisher year, area in square meter and display method to display all variable. 
+
+2) create class Movie, store movie name, release year, length in double. starcast detail as string & display function 
