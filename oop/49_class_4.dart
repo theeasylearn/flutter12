@@ -1,4 +1,5 @@
 //MyTime class store time in seconds but when required it can return seconds , minutes, hours, 
+import 'dart:io';
 class MyTime
 {
     //create private instance variable
@@ -32,9 +33,10 @@ void main()
 {
     //create object
     MyTime t1 = new MyTime();
-    int seconds = -40000; // 5 minutes 
+    print("Enter minutes");
+    int seconds = int.parse(stdin.readLineSync().toString()); // 5 minutes 
     t1.seconds = seconds; //it will call setter 
     print("Seconds " + t1.seconds.toString()); //call getter 
     print("Minutes " + t1.minutes.toString()); //call getter 
     print("Hours " + t1.hours.toString()); //call getter 
-}t
+}

@@ -212,8 +212,6 @@ create multilevel inheritance example
     Meter has contructor and function that returns Meter 
     KiloMeter has contructor and function that returns KiloMeter
     Mile has contructor and function that returns Mile 
-
-
 Create example using 55th example
     make total of all book 
     also findout average price of all book 
@@ -221,24 +219,17 @@ Create example using 55th example
     search book using given name & author name 
         for example book name The Lean Startup and author is Eric Ries
     if book found display all detail otherwise display message book not found
-
 Lambda function
 ---------------------------------------------
     1) create lambda function to convert Liter into Milileter 
     2) create lambda function that return current Date As String in dd-mm-YYYY format 
     3) create lambda function that return current Time As String in HH:MM:SS format 
-
 annonymus function 
 ----------------------------------------------
     1) create annonymus function on String type list that has 20 words. count words start with vowels (a,e,i,o,u) 
     2) create annonymus function on integer list that has 20 numbers. cound odd and even numbers in this list 
-    
 class & object
 1) create class School, store School name, establisher year, area in square meter and display method to display all variable. 
-
 2) create class Movie, store movie name, release year, length in double. starcast detail as string & display function 
-
 3) add constuctor with argument in 1st example 
-
 4) add constuctor with argument in 2nd example 
-
