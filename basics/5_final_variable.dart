@@ -1,16 +1,17 @@
 // final variable
 void main()
 {
-    // without type
-    final name = "THE EASYLEARN ACADEMY";
-    const address = "Eva surbhi, opp aksharwadi temple, bhavnagar";
-    
-    // with type
-    const int pincode = 364001;
-    final double pi = 3.14;
+   //const
+   const CITY = "Bhavnagar";
+   print(CITY);
 
-    print("name = $name address = $address pincode = $pincode pi = $pi");
-    //name = "T.E.L";
+   const int CODE = 91;
+   print(CODE);
 
-    print(name);
+   //final 
+   final isMarried = true;
+   print(isMarried);
+
+   final double pi = 3.14;
+   print(pi);
 }

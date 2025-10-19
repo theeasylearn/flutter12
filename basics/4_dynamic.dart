@@ -1,12 +1,9 @@
-// concept of dynamic variable
-void main()
-{
-    dynamic value;
-
-    value = "The easylearn academy";
+//concept of dynamic type variable in dart
+void main(){
+    dynamic value = "The Easylearn Academy";
     print(value);
 
-    value = 12;
+    value = 91; 
     print(value);
 
     value = 3.14;
@@ -14,5 +11,6 @@ void main()
 
     value = true;
     print(value);
+
     
 }

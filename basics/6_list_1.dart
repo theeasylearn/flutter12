@@ -2,16 +2,14 @@
 void main()
 {
     //Fixed type Fixed size list
-    int size = 3;
+    int size = 4;
     String defaultValue = '';
-    List<String> names = List.filled(size,defaultValue,growable:false);
-    print(names);
-    //update list
-    names[0] = "manav";
-    names[1] = "harshraj";
-    names[2] = "dishant";
-    // names[2] = 100; //Error: A value of type 'int' can't be assigned to a variable of type 'String'.
-    print(names);
-    // names.add("Ankit"); //Unsupported operation: Cannot add to a fixed-length list
-    print('Good bye.'); 
+    List<String> students = List.filled(size,defaultValue,growable:false);
+    students[0] = "Hardik";
+    students[1] = "manav";
+    students[2] = "harshraj";
+    students[3] = "dishant";
+    //can't add new value
+    // students.add('ankit'); //as list is of Fixed size
+    print(students);
 }
