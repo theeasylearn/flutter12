@@ -1,17 +1,14 @@
 import 'dart:collection';
 void main()
 {
-    HashMap<String,dynamic> basket = new HashMap<String,dynamic>();
-    basket['name'] = "Ankit";
-    basket['age'] = 40;
-    basket['gender'] = true;
-    basket['weight'] = 75.25;
-    basket['city'] = 'bhavnagar';
+    HashMap person = new HashMap<String,dynamic>();
+    person['name'] = "Ankit";
+    person['age'] = 40;
+    person['weight'] = 84.25;
+    person['gender'] = true;
 
-    print(basket);
-
-    print(basket['name']); //Ankit
-    basket['age'] = 41;
-    print(basket);
-
+    print(person);
+    person['age'] = 41;
+    person['pincode'] = 364001;
+    print(person);
 }

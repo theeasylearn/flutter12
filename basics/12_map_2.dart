@@ -1,8 +1,8 @@
 import 'dart:collection';
 void main()
 {
-    LinkedHashMap<String,dynamic> basket = new LinkedHashMap<String,dynamic>();
-     basket['name'] = "Ankit";
+    LinkedHashMap basket = new LinkedHashMap<String,dynamic>();
+    basket['name'] = "Ankit";
     basket['age'] = 40;
     basket['gender'] = true;
     basket['weight'] = 75.25;
@@ -12,5 +12,7 @@ void main()
 
     print(basket['name']); //Ankit
     basket['age'] = 41;
+    basket['pincode'] = 364001;
+
     print(basket);
 }
