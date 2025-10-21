@@ -19,6 +19,17 @@ list
 
     length property 
     sort list
+Map 
+------------------------------------
+1) create HashMap to store cricketer below detail
+        name, dob, runs, match, fifty, century, avg 
+    and display it 
+2) create LinkedHashMap to store team's below detail
+        name, test, win, loss, tie, draw, WorldChampion
+3) create SplayTreeMap to store state detail
+        name, CM, language, area, population, perPersonIncome, litracyRate
+    and display it 
+
 
 5) write a program to accept length & width from user, decide and display whether shape is potrait or landscape using ternary operator.
 
