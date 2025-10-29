@@ -2,15 +2,16 @@
 import 'dart:io';
 void main()
 {
-    Set<String> dish = {'Pani puri','samosa','pav bhaji','mix plate','samosa'};
-    print(dish);
+    var fruits = <String> {'apple','banana','mango','pinapple','kiwi','orange','banana','coconut'};
+    print(fruits);
 
-    List<String> dish2 = ['Dhokla','betata vada'];
-    List<String> dish3 = ['Pani puri','mix plate','Idli'];
+    Set <String> vegies = {'potato','tomato','chiliy','lady finger','coconut'};
+    print(vegies);
 
-    dish.addAll(dish2);
-    dish.addAll(dish3);
-
-    print(dish);
-
+    Set <String> fridge = {}; //empty set 
+    print(fridge);
+    fridge.addAll(fruits);
+    fridge.addAll(vegies);
+    fridge.add('tomato'); //ignore because it is duplicate
+    print(fridge);
 }

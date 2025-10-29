@@ -4,28 +4,28 @@ void main()
 {
     int a,b;
     bool result = false;
-    print("Enter value for a");
+    print("Enter value for a"); // 10
     a = int.parse(stdin.readLineSync().toString());
 
-    print("Enter value for b");
+    print("Enter value for b"); // 20
     b = int.parse(stdin.readLineSync().toString());
-    //a = 10 b = 20
-    result = a<b; // 10<20
+
+    result = a < b;
     print("$result = $a<$b");
 
-    result = a>b; // false 
+    result = a > b;
     print("$result = $a>$b");
 
-    result = a<=b; // 10<20
+    result = a <= b;
     print("$result = $a<=$b");
 
-    result = a>=b; // false 
+    result = a >= b;
     print("$result = $a>=$b");
 
-    result = a==b; // 10<20
+    result = a == b;
     print("$result = $a==$b");
 
-    result = a!=b; // false 
-    print("$result = $a!=$b");
+    result = a != b;
+    print("$result != $a<$b");
 
 }
