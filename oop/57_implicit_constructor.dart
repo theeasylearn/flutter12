@@ -41,11 +41,9 @@ class Student extends Person
         print("Standard $standard");
     }
 }
-
 void main()
 {
     Student s1 = new Student(); 
     //this line will call Student class constructor automatically   
     s1.displayStudent();
-    
 }
